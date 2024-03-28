@@ -29,7 +29,7 @@ game_is_on = True
 
 while game_is_on:
     screen.update()
-    ball.fd(1)
+    ball.fd(6)
 
     if ball.ycor() >= 290 or ball.ycor() <= -280:
         ball.bounce_y()
